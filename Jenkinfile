@@ -9,6 +9,6 @@ node('maven'){
         sh "sh test.sh"
     }
     stage ('Final'){
-        echo " This is job is successfully completed"
+        echo " This is job is completed"
     }
     }
